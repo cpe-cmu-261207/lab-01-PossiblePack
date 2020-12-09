@@ -1,32 +1,43 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Homepage</title>
+        <title>Contact</title>
     </head>
     <body>
-        <center>
-            <h1 style="font-size:30px;">Contact</h1>
-            <table style="width:11%">
+            <h1 style="font-size: 30;">Contact</h1>
+            <nav style="width:100%">
                 <tr>
-                    <td style="font-size:20px;"><a href="Homepage.html">Homepage</a></td>
-                    <th style="font-size:20px;"><a href="Gallery.html">Gallery</a></th>
+                    <th style="font-size:20px;"><a href="Homepage.html">Homepage</a></th> |
+                    <td style="font-size:20px;"><a href="Gallery.html">Gallery</a></td> <br>
                 </tr> 
-            </table>     
-            <img width="400" src="image.jpg" alt="image">
-            <table>
+            </nav> <br>
+
+
+        <form style="font-size: 20;">
+            <label for="subject">Subject:</label><br> 
+            <input style="width: 20%;" type="text" id="subject" name="subject"><br>
+            <label for="message">Message:</label><br>
+            <input style="width: 40%;" type="text" id="message" name="message"><br>  
+            <label for="fname">Name:</label><br>
+            <input type="text" id="fname" name="fname"><br> 
+            <table style="width: 100%;">
+                <p>Gender:</p>
                 <tr>
-                    <td style="font-size:20px;">Facebook :</td>
-                    <th style="font-size:20px;">Sahadsawad Chailuan</th>
-                </tr>
-                <tr>
-                    <td style="font-size:20px;">Email :</td>
-                    <th style="font-size:20px;">possible.pack@gmail.com</th>
-                </tr>
-                <tr>
-                    <td style="font-size:20px;">Tel :</td>
-                    <th style="font-size:20px;">0908958539</th>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br> <br>
                 </tr>
             </table>
-        </center>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email"> <br> 
+            <label for="tel">Tel:</label><br> 
+            <input type="number" id="tel" name="tel"><br> <br>
+            <input type="submit" value="Submit">
+          </form> 
+            
+          <h3>Contact me <br> Tel: 0908958539 <br> Email: possible.pack@gmail.com <br> </h3>
+          
+        
     </body>
 </html>
